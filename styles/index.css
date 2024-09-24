@@ -1,4 +1,30 @@
 /* Typography */
+.sort-button {
+  background-color: #ac9cfb !important; /* Force green background */
+  cursor: pointer !important;           /* Force cursor change */
+}
+
+.sort-button:hover {
+  background-color: #45a049 !important; /* Force hover color */
+}
+
+.store--filter {
+  display: flex; 
+  justify-content: center;
+  gap: 1rem; 
+}
+
+.store--filter button {
+  padding: 10px 20px; 
+  background-color: rgb(255, 164, 222); 
+  border: none; 
+  cursor: pointer; 
+  border-radius: 5px; 
+}
+
+.store--filter button:hover {
+  background-color: rgb(253, 94, 195); 
+}
 
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
@@ -23,12 +49,12 @@ button {
 /* Store */
 
 #store {
-  height: 40vh;
+  height: 55vh;
   padding: 1rem;
 
   overflow-y: scroll;
 
-  background-color: #e7f4ea;
+  background-color: rgb(255, 217, 241);
 }
 
 #store h1 {
@@ -68,7 +94,7 @@ button {
 /* Cart */
 
 #cart {
-  height: 60vh;
+  height: 45vh;
   padding: 1rem;
 
   display: grid;
